@@ -1,0 +1,12 @@
+public static void main( String[] args ) {
+    new HashSet<> ();
+        HashSet<String> set = new HashSet<>();
+        set.add("Niki");
+        set.add("Ivan");
+        set.add("Georgi");
+        set.add("Stoyan");
+        System.out.println("An initial list of elements: " + set);
+        set.remove("Georgi");
+        System.out.println("After invoking remove(object) method: " + set);
+    }
+}
